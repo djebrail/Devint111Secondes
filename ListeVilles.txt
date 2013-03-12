@@ -1,0 +1,199 @@
+1.Paris 
+2.Marseille                   
+3.Lyon                                           
+4.Toulouse                                             
+5.Nice                                                 
+6.Nantes                                               
+7.Strasbourg                                       
+8.Montpellier                                         
+9.Bordeaux                                      
+10.Lille                                             
+11.Rennes                                             
+12.Reims                                                      
+13.Le Havre                                                
+14.St Etienne                                                     
+15.Toulon                                                          
+16.Grenoble                                                       
+17.Angers                                                         
+18.Dijon                                                          
+19.Brest                                                          
+20.Le Mans                                                        
+21.Nîmes                                                          
+22.Aix-en-Provence                                                
+23.Clermont-Ferrant                                               
+24.Tours                                                          
+25.St Denis (Reunion)                                             
+26.Limoges                                                        
+27.Villeurbanne                                                   
+28.Amiens                                                         
+29.Besançon                                                                    121 012
+30.Metz                                                                          120 706
+31.Perpignan                                                                  117 500
+32.Orléans                                                                      116 256
+33.Caen                                                                          113 249
+34.Mulhouse                                                                    112 960
+35.Boulogne-Billancourt                                                111 280                                                 
+36.Rouen                                                                        110 276
+37.Nancy                                                                        107 189
+38.Argenteuil                                                                  104 189
+39.Montreuil                                                                    102 369
+40.St Paul(Reunion)                                                        100 818
+41.St Denis                                                                        98 937
+42.Roubaix                                                                        98 774
+43.Avignon                                                                        94 784
+44.Turoing                                                                        93 540
+45.Fort-de-France(Martinique)                                          91 821
+46.Poitiers                                                                          91 345
+47.Nanterre                                                                        90 368
+48.Créteil                                                                            89 691
+49.Verseilles                                                                      89 490
+50.Pau                                                                                85 714
+51.Courbevoie                                                                                      85 158
+52.Vitry-sur-Seine                                                                                83 559
+53.Asnieres-sur-Seine                                                                          83 044
+54.Colombes                                                                                        82 698
+55.Aulnay-sous-Bois                                                                            82 130
+56.Rueil-Malmaison                                                                            78 964
+57.Antibes                                                                                            76 925
+58.La Rochelle                                                                                      76 594
+59.St-Maur-des-Fossés                                                                          76 053
+60.Calais                                                                                                75 790
+61.Champigny-sur-Marne                                                                    75 485
+62.St Pierre(Réunion)                                                                            75 381
+63.Aubervilliers                                                                                    74 038
+64.Béziers                                                                                              74 028
+65.Bourges                                                                                            72 919
+66.Cannnes                                                                                            71 526
+67.St Nazaire                                                                                          71 373
+68.Dunkerque                                                                                        71 071
+69.Quimper                                                                                            68 237
+70.Valence                                                                                              66 981
+71.Colmar                                                                                              66 886
+72.Drancy                                                                                                66 701
+73.Mérignac                                                                                            66 388
+74.Ajaccio                                                                                              64 679
+75.Levallois-Perret                                                                                  63 272
+76.Troyes                                                                                                63 044
+77.Les Abymes                                                                                        62 809
+78.Neuilly-sur-Seine                                                                                62 241
+79.Issy-Les-Moulineaux                                                                          62 175
+80.Villeneuve-d’Ascq                                                                              61 932
+81.Noisy-Le-Grand                                                                                  61 795
+82.Antony                                                                                                61 265
+83.Niort                                                                                                  60 486 
+84.Lorient                                                                                                60 286
+85.La Seyne sur mer                                                                                60 188
+86.Chambery                                                                                          59 188
+87.Cayenne(Guyane)                                                                              58 492
+88.St Quentin                                                                                          58 486
+89.Pessac                                                                                                  58 069
+90.Sarcelles                                                                                              57 877
+91.Cergy                                                                                                  57 576
+92.Clichy                                                                                                  57 475
+93.Beauvais                                                                                              56 919
+94.Cholet         56 761
+95.Hyrès                                56 275
+96.Vénissieux                                                                                            56 061
+97.Ivry-sur-Seine                                                                                      56 034
+98.Montauban                                                                                          55 927
+99.Vannes                                                                                                55 513 
+100.Charleville-Mézières                                                                          54 036
+101.Pantin                                                                                                  53 949
+102.Laval                                                                                                  53 896
+103.Maisons-Alfort                                                                                  53 749
+104.Bondy                                                                                                53 663
+105.Evry                                                                                                    53 371
+106.Evreux                                                                                                53 254
+107.Arles                                                                                                  53 058
+108.Annecy                                                                                                52 890
+109.Fréjus                                                                                                  52 389
+110.Fontenay-sous-Bois                                                                            52 220
+111.Saint-André(Réunion)                                                                        52 147
+112.Sartouville                                                                                          52 090
+113.Narbonne                                                                                            51 996
+114.Epinay-sur-Seine                                                                                51 922
+115.Belfort                                                                                                51 891
+116.Brive-la-Gaillarde                                                                              51 455
+117.Sevran                                                                                                51 405
+118.Saint-Malo                                                                                          51 292
+119.Albi                                                                                                    51 199
+120.Clamart                                                                                                51 196
+121.Blois                                                                                                    50 704 
+122.Meaux                                                                                                  50 673
+123.Villejuif                                                                                              50 671
+124.Saint-Louis(Réunion)                                                                          49 958
+125.Grasse                                                                                                  49 770
+126.Chateauroux                                                                                        49 632
+127.La Roche-sur-Yon                                                                              49 262
+128.Chelles                                                                                                49 110
+129.Cagnes-sur-Mer                                                                                  48 911
+130.Le Tampon (La Réunion)                                                                    48 436
+131.Saint-Brieuc                                                                                        48 407
+132.Chalon-sur-Saône                                                                                48 376                     
+133.Carcassonne                                                                                        48 212
+134.Bobigny                                                                                              48 156
+135.Vincennes                                                                                            47 934
+136.Chalons-en-Champagne                                                                      47 720
+137.Martigues                                                                                            47 056
+138.Le Blanc-Mesnil                                                                                  46 936
+139.Tarbes                                                                                                  46 275
+140.Bayonne                                                                                              45 636
+141.Meudon                                                                                                45 516
+142.Montrouge                                                                                            45 481
+143.Angouleme                                                                                          45 131
+144.Aubagne                                                                                              45 088
+145.Boulogne-sur-Mer                                                                                45 036
+146.Castres                                                                                                  44 823
+147.Génnevilliers                                                                                        44 818
+148.Saint-Herblain                                                                                      44 775
+149.Suresnes                                                                                              44 491
+150.Bastia                                                                                                  44 273
+151.Douai                                                                                                  43 988
+152.Compiègne                                                                                          43 699           
+153.Sète                                                                                                      43 665
+154.Arras                                                                                                    43 663
+155.Valenciennes                                                                                        43 387
+156.Saint-Ouen                                                                                          43 302
+157.Puteaux                                                                                                43 277
+158.Wattrelos                                                                                            43 133
+159.Istres                                                                                                    43 034
+160.Saint-Germain-en-Laye                                                                      43 015
+161.Alfortville                                                                                            42 994                           
+162.Mantes-la-Jolie                                                                                    42 365
+163.Bourg-en-Bresse                                                                                  42 333
+164.Cherbourg                                                                                            42 087
+165.Talence                                                                                                42 293
+167.Le Cannet                                                                                            42 158
+168.Thionville                                                                                            42 040
+169.Caluire-et-Cuire                                                                                  42 020
+170.Livry-Garan                                                                                        41 722
+171.Corbeil-Essonnes                                                                                41 604
+172.Chartes                                                                                                41 588
+173.Rosny-sous-Bois                                                                                  41 425 
+174.Montluçon                                                                                            41 302
+175.Saint-Priest                                                                                          41 127
+176.Arès                                                                                                      40 949
+177.Salon-de-Provence                                                                              40 849
+178.Vaulx-en-Velin                                                                                    40 806
+179.Massy                                                                                                  40 612
+180.Nevers                                                                                                  40 131
+181.Garges-lès-Gonesse                                                                              40 058
+182.Auxerre                                                                                                39 971
+183.Marcq-en-Baroeuf                                                                                39 726
+184.Bron                                                                                                      39 488
+185.Bagneux                                                                                              39 213
+186.Gap                                                                                                      39 136
+187.Anglet                                                                                                  38 992     
+188.Noisy-le-Sec                                                                                        38 850
+189.Melun                                                                                                    38 691
+190.Rezé                                                                                                      38 569
+191.Draguignan                                                                                            38 258
+192.Le Port (La Réunion)                                                                            38 412
+193.Roanne                                                                                                  37 645
+194.Vitrolles                                                                                                37 625
+195.Savigny-sur-Orge                                                                                  37 623
+196.La Courneuve                                                                                        37 347
+197.Jouè-lès-Tours                                                                                      36 517
+198.Choisy-le-Roi                                                                                        36 513
+199.Saint-Chamond                                                                                      36 272
+200.Poissy
