@@ -92,15 +92,23 @@ public class Outils {
 		}
 		return "le mot n'existe pas en : " + lettre;
 	}
-
-	public int nbLigneTexte(String texte) throws IOException {
-		int count = 0;
-		String str;
-		FileInputStream fis = new FileInputStream(texte);
-		LineNumberReader l = new LineNumberReader(br);
-		new BufferedReader(new InputStreamReader(fis));
-		while ((str = l.readLine()) != null) {
-			count = l.getLineNumber();
+	
+	public int nbLigneTexte(String texte) {
+		String fichier = texte;
+		int count=0;
+		// lecture du fichier texte
+		try {
+			InputStream ips = new FileInputStream(fichier);
+			InputStreamReader ipsr = new InputStreamReader(ips);
+			br = new BufferedReader(ipsr);
+			String ligne;
+			while ((ligne = br.readLine()) != null) {
+				count++;
+				
+			}
+			br.close();
+		} catch (Exception e) {
+			System.out.println(e.toString());
 		}
 		return count;
 	}
