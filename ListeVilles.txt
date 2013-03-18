@@ -1,18 +1,18 @@
-1.Paris 
-2.Marseille                   
-3.Lyon                                           
-4.Toulouse                                             
-5.Nice                                                 
-6.Nantes                                               
-7.Strasbourg                                       
-8.Montpellier                                         
-9.Bordeaux                                      
-10.Lille                                             
-11.Rennes                                             
-12.Reims                                                      
-13.Le Havre                                                
-14.St Etienne                                                     
-15.Toulon                                                          
+Paris 
+Marseille                   
+Lyon                                           
+Toulouse                                             
+Nice                                                 
+Nantes                                               
+Strasbourg                                       
+Montpellier                                         
+Bordeaux                                      
+Lille                                             
+Rennes                                             
+Reims                                                      
+Le Havre                                                
+St Etienne                                                     
+Toulon                                                          
 16.Grenoble                                                       
 17.Angers                                                         
 18.Dijon                                                          

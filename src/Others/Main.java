@@ -13,8 +13,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		//Questions question = new Questions();
 		Outils outils = new Outils();
-		//String texte=question.choisirListe();
-		String texte = "ListeFruits.txt";
+		String texte=outils.choisirListe();
+		System.out.println( " Texte : " +texte);
+		//String texte = "ListeFruits.txt";
 		System.out.println("Le mot est il dans la liste ?"); 
 		char lettre = outils.choisirLettre(texte);
 		//char lettre = 'l';

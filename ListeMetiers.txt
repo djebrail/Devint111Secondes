@@ -11,8 +11,6 @@ Navigateur aérien
 Pilote d'avion
 Pilote de chasse
 Pilote d'hélicoptère 
-
-
 Barman
     Boucher
     Boulanger
@@ -581,5 +579,3 @@ pilote
     Pompiste
     Régulateur
     Transporteur 
-
-	
