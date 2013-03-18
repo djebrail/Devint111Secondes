@@ -11,6 +11,7 @@ import java.lang.Character;
 public class Outils {
 
 	private BufferedReader br;
+	private String[] listes;
 
 	public Outils() {
 
@@ -82,7 +83,7 @@ public class Outils {
 			br = new BufferedReader(ipsr);
 			String ligne;
 			while ((ligne = br.readLine()) != null) {
-				if (ligne.charAt(0) == lettre) {
+				if (ligne.toUpperCase().charAt(0) == Character.toUpperCase(lettre)) {
 					return ligne;
 				}
 			}
@@ -112,4 +113,53 @@ public class Outils {
 		}
 		return count;
 	}
+	
+	
+	public String getMotDeLaLigne(String texte, int nb){
+		String fichier = texte;
+		// lecture du fichier texte
+		try {
+			InputStream ips = new FileInputStream(fichier);
+			InputStreamReader ipsr = new InputStreamReader(ips);		
+			br = new BufferedReader(ipsr);
+			String ligne;
+			while ((ligne = br.readLine()) != null) {
+				for(int i = 0; i!= nb;i++) {
+					ligne = br.readLine();
+				}
+				return ligne;
+			}
+			br.close();
+		}catch (Exception e) {
+			System.out.println(e.toString());
+		}
+		return "Error";
+	}
+	
+	public char choisirLettre(String texte){
+		//texte="ListeFruits.txt";
+		int nb = nbLigneTexte(texte);
+		int alea = (int)Math.floor(Math.random()*nb);
+		String mot = getMotDeLaLigne(texte, alea);
+		char lettre = mot.charAt(0);
+		return lettre;
+	}
+	
+	//Utilise random pour choisir une liste
+	//Les liste dans un tableau ?
+	public String choisirListe(){
+		listes = new String[5];
+		listes[1]= "ListeFruits.txt";
+		listes[2]= "ListeMetiers.txt";
+		listes[3]= "ListeVilles.txt";
+		listes[4]= "ListePays.txt";
+		listes[0]= "ListeSports.txt";
+		int i = (int)Math.floor(Math.random()*5);
+		return listes[i];
+	}
+	
+	public String laQuestionEst(String texte){
+		return choisirListe() + " en " + choisirLettre(texte);
+	}
 }
+
