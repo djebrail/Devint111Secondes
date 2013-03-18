@@ -33,7 +33,9 @@ public class Main {
 		
 //		System.out.println(outils.MotPossible("ListeFruits.txt", lettre));
 		
-		System.out.println("Le nombre de ligne du fichier est de : " + outils.nbLigneTexte("ListeFruits.txt"));
+		System.out.println("Le nombre de ligne du fichier est de : " + outils.nbLigneTexte("ListeFruits.txt"));		
+		
+		
 	}
 
 }
