@@ -138,7 +138,7 @@
     dugong
     duiker
 
-E
+
 
     écureuil antilope
     écureuil fouisseur
@@ -155,7 +155,7 @@ E
     euplère
     eyra
 
-F
+
 
     falanouc
     faon
@@ -167,7 +167,7 @@ F
     foussa
     furet
 
-G
+
 
     galago
     galéopithèque
@@ -199,7 +199,7 @@ G
     guéreza
     guib
 
-H
+
 
     hamster
     hérisson
@@ -217,7 +217,7 @@ H
     hylochère
     hypotrague
 
-I
+
 
     ibex
     impala
@@ -225,7 +225,7 @@ I
     isard
     isatis
 
-J
+
 
     jaguar
     jaguarondi
@@ -233,7 +233,7 @@ J
     jubarte
     jutia
 
-K
+
 
     kanchil
     kangourou
@@ -245,7 +245,7 @@ K
     koudou
     kouprey
 
-L
+
 
     lagotriche
     lama
@@ -274,7 +274,7 @@ L
     lycaon
     lynx
 
-M
+
 
     macaque
     macrorhine
@@ -315,7 +315,7 @@ M
     myrmécobie
     myrmidon
 
-N
+
 
     narval
     nasique
@@ -327,7 +327,7 @@ N
     nyctère
     nycticèbe
 
-O
+
 
     ocelot
     octodon
@@ -351,7 +351,7 @@ O
     ourébi
     ours
 
-P
+
 
     paca
     pacarana
@@ -391,12 +391,11 @@ P
     puma
     putois
 
-Q
 
     quatre yeux
     quokka
 
-R
+
 
     ragondin
     rasse
@@ -420,7 +419,6 @@ R
     rorqual
     roussette
 
-S
 
     sagouin
     saïmiri
@@ -459,7 +457,7 @@ S
     suisse
     suricate
 
-T
+
 
     tadaride
     tahr
@@ -491,12 +489,12 @@ T
     triok
     tuco-tuco
 
-U
+
 
     unau
     urial
 
-V
+
 
     vache
     vampire
@@ -509,19 +507,19 @@ V
     viscache
     vison
 
-W
+
 
     wallaby
     wapiti
     wolverine
     wombat
 
-Y
+
 
     yak
     yangir
 
-Z
+
 
     zapode
     zèbre
