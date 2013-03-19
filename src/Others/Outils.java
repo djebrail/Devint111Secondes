@@ -21,7 +21,7 @@ public class Outils {
 		if (rechercheDuMotDansLaListe(mot, texte, lettre)) {
 			return "Le mot est dans la liste +1 ! ";
 		} else {
-			return " Le mot n'est pas bon mais voici un exemple de mot possible :"+ MotPossible(texte, lettre);
+			return " Le mot n'est pas bon mais voici un exemple :"+ motPossible(texte, lettre);
 		}
 	}
 
@@ -76,7 +76,7 @@ public class Outils {
 		}
 	}
 
-	public String MotPossible(String texte, char lettre) {
+	public String motPossible(String texte, char lettre) {
 		try {
 			InputStream ips = new FileInputStream(texte);
 			InputStreamReader ipsr = new InputStreamReader(ips);
@@ -93,6 +93,19 @@ public class Outils {
 		}
 		return "le mot n'existe pas en : " + lettre;
 	}
+	
+	public String motPossibleAlea(String texte, char lettre){
+		int alea = nbLigneTexte(texte);
+		String mot = getMotDeLaLigne(texte, alea);		
+		if(mot.toUpperCase().charAt(0)==Character.toUpperCase(lettre)){
+			return mot;
+		}
+		else{
+			motPossibleAlea(texte,lettre);
+		}
+		return "Error";
+	}
+	
 	
 	public int nbLigneTexte(String texte) {
 		String fichier = texte;
@@ -148,12 +161,16 @@ public class Outils {
 	//Utilise random pour choisir une liste
 	//Les liste dans un tableau ?
 	public String choisirListe(){
-		listes = new String[5];
+		listes = new String[10];
+		listes[0]= "ListeSports.txt";
 		listes[1]= "ListeFruits.txt";
 		listes[2]= "ListeMetiers.txt";
 		listes[3]= "ListeVilles.txt";
 		listes[4]= "ListePays.txt";
-		listes[0]= "ListeSports.txt";
+		listes[5]= "ListeMammiferes.txt";
+		listes[6]= "ListePrenoms.txt";
+		listes[7]= "ListePlanetes.txt";
+
 		int i = (int)Math.floor(Math.random()*5);
 		return listes[i];
 	}

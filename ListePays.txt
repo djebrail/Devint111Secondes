@@ -1,6 +1,4 @@
-﻿
-
-    Afghanistan
+﻿    Afghanistan
     Afrique du Sud
     Akrotiri
     Albanie
@@ -256,4 +254,3 @@
     Yémen
     Zambie
     Zimbabwe
-
