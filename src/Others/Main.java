@@ -1,5 +1,6 @@
 package Others;
 
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 
 
@@ -21,6 +22,11 @@ public class Main {
 		System.out.println("test de rechercheDuMotDansLaListe");
 		System.out.println("Le nombre de ligne du fichier est de : " + outils.nbLigneTexte(texte));		
 		
+		
+		Chrono chrono = new Chrono(111);
+		boolean start = true;
+		ActionEvent e = new ActionEvent(start, 1, "go");
+		chrono.actionPerformed(e);
 		
 	}
 
