@@ -165,7 +165,7 @@ public class Outils {
 		listes[0]= "ListeSports.txt";
 		listes[1]= "ListeFruits.txt";
 		listes[2]= "ListeMetiers.txt";
-		listes[3]= "ListeVilles.txt";
+		listes[3]= "ListeVillesDeFrance.txt";
 		listes[4]= "ListePays.txt";
 		listes[5]= "ListeMammiferes.txt";
 		listes[6]= "ListePrenoms.txt";
