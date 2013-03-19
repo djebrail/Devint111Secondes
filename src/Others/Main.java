@@ -11,7 +11,6 @@ public class Main {
 	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		//Questions question = new Questions();
 		Outils outils = new Outils();
 		String texte=outils.choisirListe();
 		System.out.println( " Texte : " +texte);
@@ -20,7 +19,7 @@ public class Main {
 		char lettre = outils.choisirLettre(texte);
 		//char lettre = 'l';
 		System.out.println("La lettre choisi est "+lettre);
-		System.out.println(outils.leMotEstDansLaListe("litchazez",texte, lettre));
+		System.out.println(outils.leMotEstDansLaListe("litchi",texte, lettre));
 		System.out.println("test de rechercheDuMotDansLaListe");
 //		System.out.println(outils.rechercheDuMotDansLaListe("ccvdgfgoudion","ListeFruits.txt", 'c'));
 //		System.out.println(outils.motMalTape("azejaivefovb", "litchi"));
