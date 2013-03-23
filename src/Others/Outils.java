@@ -10,6 +10,7 @@ import java.lang.Character;
 
 public class Outils {
 
+	private static final String String = null;
 	private BufferedReader br;
 	private String[] listes;
 
@@ -94,16 +95,46 @@ public class Outils {
 		return "le mot n'existe pas en : " + lettre;
 	}
 	
+	/**
+	 * 
+	 * @param texte		Le nom du fichier a l'interieur du quel rechercher le mot
+	 * @param lettre	La premiere lettre du mot a rechercher
+	 * @return 			Mot aleatoire commencant par la lettre donnee
+	 */
 	public String motPossibleAlea(String texte, char lettre){
-		int alea = nbLigneTexte(texte);
-		String mot = getMotDeLaLigne(texte, alea);		
-		if(mot.toUpperCase().charAt(0)==Character.toUpperCase(lettre)){
+
+		int nbLignes = nbLigneTexte(texte);
+		int premLigne=1;
+		
+		// Une premiere boucle pour trouver la premiere ligne de l'occurrence de la lettre
+		while(premLigne <= nbLignes && (getMotDeLaLigne(texte, premLigne).charAt(0) != lettre)){
+		premLigne+=1;
+		}
+		
+		String motTmp = getMotDeLaLigne(texte, premLigne);
+		if (premLigne == nbLignes && (motTmp.toUpperCase().charAt(0) != Character.toUpperCase(lettre))){
+			return "Error";
+		}
+		
+		int derLigne = premLigne;
+		// Une seconde boucle pour trouver la derniere ligne de l'occurrence de la lettre
+		while(derLigne <= nbLignes && (getMotDeLaLigne(texte, derLigne).charAt(0) == lettre)){
+		derLigne+=1;
+		}
+		// Le nombre de lignes commencant par la lettre donnee
+		int nbMotCommencantParLettre = derLigne - premLigne;
+		
+		// Ligne aleatoire entre la premiere et derniere occurrence de la lettre
+		int nbLigneMot = (int)( Math.random()*( nbMotCommencantParLettre ) ) + premLigne;
+		
+		
+		String mot = getMotDeLaLigne(texte, nbLigneMot);		
+		if(mot.toUpperCase().charAt(0) == Character.toUpperCase(lettre)){
 			return mot;
 		}
 		else{
-			motPossibleAlea(texte,lettre);
-		}
 		return "Error";
+		}
 	}
 	
 	

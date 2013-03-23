@@ -40,7 +40,7 @@ public class Main {
 			ioe.printStackTrace();
 		}
 		
-		
+		/*
 		// TODO Auto-generated method stub
 		Outils outils = new Outils();
 		String texte=outils.choisirListe();
@@ -57,6 +57,13 @@ public class Main {
 		boolean start = true;
 		ActionEvent e = new ActionEvent(start, 1, "go");
 		chrono.actionPerformed(e);
+		*/
+		Outils o = new Outils();
+		int nbLignes = o.nbLigneTexte("ListePays.txt");
+		System.out.println(nbLignes);
+		String mot = o.motPossibleAlea("ListePays.txt", 'A');
+		System.out.println(mot);
+		
 		
 	}
 
