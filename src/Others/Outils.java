@@ -175,8 +175,12 @@ public class Outils {
 		return listes[i];
 	}
 	
+	public String printListe(String texte){
+		return texte.substring(5,texte.indexOf('.')); 
+	}
+	
 	public String laQuestionEst(String texte){
-		return choisirListe() + " en " + choisirLettre(texte);
+		return printListe(choisirListe()) + " en " + choisirLettre(texte);
 	}
 }
 
