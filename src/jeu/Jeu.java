@@ -3,6 +3,8 @@ package jeu;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 
+import Others.Outils;
+
 import devintAPI.FenetreAbstraite;
 import devintAPI.Preferences;
 
@@ -20,6 +22,8 @@ import java.awt.event.*;
 
 public class Jeu extends FenetreAbstraite implements ActionListener{
 
+	//création de la variable outils pour appeller les fonctions associés à la classe
+	private Outils outils;
 	// le bouton pour la question
 	// est une variable d'instance car il doit être accessible 
 	// dans la méthode actionPerformed 
@@ -54,10 +58,11 @@ public class Jeu extends FenetreAbstraite implements ActionListener{
     // initialise le frame 
     protected void init() {
     	// BorderLayout, voir http://java.sun.com/docs/books/tutorial/uiswing/layout/border.html
-    	setLayout(new BorderLayout());
- 
+    	//setLayout(new BorderLayout());
+    	//String question = outils.laQuestionEst(outils.choisirListe());
     	// premier label
     	// ce label est géré par les préférences (cf méthode changeColor)
+    	
     	String text = "L'interface de votre jeu est totalement libre mais vous devez suivre ";
     	text += "les conventions d'utilisation des touches.\n";
     	text += "En héritant de \"FenetreAbstraite\", la touche ESC vous permez de sortir,\n"; 
@@ -66,6 +71,8 @@ public class Jeu extends FenetreAbstraite implements ActionListener{
     	text+= "de la synthèse vocale\n";
     	text+= "\nESSAYEZ DE TAPER F1 puis F3\n";
     	text += "\nOn a utilisé un BorderLayout pour placer les éléments. Ce texte est au nord.";
+    	
+    	
      	lb1 = new JTextArea (text); 
     	lb1.setLineWrap(true);
     	lb1.setEditable(false);
@@ -79,7 +86,7 @@ public class Jeu extends FenetreAbstraite implements ActionListener{
     	
     	// on place le premier composant en haut
     	this.add(lb1,BorderLayout.NORTH);
-
+    	/*
     	// deuxième label, qui n'est pas géré par les préférences
        	text = "C'est rigolo les jeux DeViNT";
        	text += "\nIci c'est un JLabel avec un bord gris.\n";
@@ -110,6 +117,7 @@ public class Jeu extends FenetreAbstraite implements ActionListener{
        	question.addActionListener(this);
     	// on met le bouton à droite
      	this.add(question,BorderLayout.EAST);
+     	*/
    }
 
     // lire la question si clic sur le bouton 
