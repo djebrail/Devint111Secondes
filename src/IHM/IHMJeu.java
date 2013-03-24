@@ -27,8 +27,8 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	 */
 	private static final long serialVersionUID = 3618784748797233087L;
 	private JButton question;
-	private int currentButton = -1;
 	private Outils outils;
+	private JTextArea lb1;
 
 	/*
 	 * Constructeur
@@ -42,7 +42,18 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	 * Initialisation du frame.
 	 */
 	protected void init() {
-		setLayout(new FlowLayout(FlowLayout.CENTER));
+		
+		/*
+		String text = outils.laQuestionEst(outils.choisirListe());
+		voix.playText(text);
+		lb1 = new JTextArea (text); 
+    	lb1.setLineWrap(true);
+    	lb1.setEditable(false);
+    	lb1.setFont(new Font("Georgia",1,30));
+    	
+    	// on place le premier composant en haut
+    	this.add(lb1);
+    	*/
 		
 		// bouton pour poser une question
     	question = new JButton();
@@ -53,7 +64,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
      	// c'est l'objet Jeu lui-même qui réagit au clic souris
        	question.addActionListener(this);
     	// on met le bouton à droite
-     	this.add(question,BorderLayout.SOUTH);
+     	this.add(question);
 	}
 
 
