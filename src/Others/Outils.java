@@ -192,7 +192,7 @@ public class Outils {
 	//Utilise random pour choisir une liste
 	//Les liste dans un tableau ?
 	public String choisirListe(){
-		listes = new String[8];
+		listes = new String[10];
 		listes[0]= "ListeSports.txt";
 		listes[1]= "ListeFruits.txt";
 		listes[2]= "ListeMetiers.txt";
@@ -202,7 +202,7 @@ public class Outils {
 		listes[6]= "ListePrenoms.txt";
 		listes[7]= "ListePlanetes.txt";
 
-		int i = (int)Math.floor(Math.random()*8);
+		int i = (int)Math.floor(Math.random()*5);
 		return listes[i];
 	}
 	
