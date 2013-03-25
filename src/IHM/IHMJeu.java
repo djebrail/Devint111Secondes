@@ -65,8 +65,6 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
        	question.addActionListener(this);
     	// on met le bouton à droite
      	this.add(question);
-     	
-
 	}
 
 
@@ -77,7 +75,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	//Action performed: Défini les actions à effectuer lors de détection des évènements
 	public void actionPerformed(ActionEvent ae){
 		voix.stop();	// toujours stopper la voix avant de parler
-		
+
 		Object source = ae.getSource(); // on récupère la source de l'évènement
 
 		if (source.equals(question)) { // si c'est le bouton "question" on lit la question

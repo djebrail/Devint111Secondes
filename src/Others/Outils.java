@@ -211,7 +211,7 @@ public class Outils {
 	}
 	
 	public String laQuestionEst(String texte){
-		return printListe(texte) + " en " + choisirLettre(texte);
+		return printListe(choisirListe()) + " en " + choisirLettre(texte);
 	}
 }
 
