@@ -13,6 +13,7 @@ public class Main {
 	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
+		/*
 		try {
 			// création d'une personne
 			Score p = new Score("Dupont", 36);
@@ -39,6 +40,7 @@ public class Main {
 		} catch(IOException ioe) {
 			ioe.printStackTrace();
 		}
+		*/
 		
 		/*
 		// TODO Auto-generated method stub
@@ -59,10 +61,7 @@ public class Main {
 		chrono.actionPerformed(e);
 		*/
 		Outils o = new Outils();
-		int nbLignes = o.nbLigneTexte("ListePays.txt");
-		System.out.println(nbLignes);
-		String mot = o.motPossibleAlea("ListePays.txt", 'A');
-		System.out.println(mot);
+		System.out.println(o.laQuestionEst());
 		
 		
 	}

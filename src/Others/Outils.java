@@ -210,8 +210,9 @@ public class Outils {
 		return texte.substring(5,texte.indexOf('.')); 
 	}
 	
-	public String laQuestionEst(String texte){
-		return printListe(choisirListe()) + " en " + choisirLettre(texte);
+	public String laQuestionEst(){
+		String liste= choisirListe();
+		return printListe(liste) + " en " + choisirLettre(liste);
 	}
 }
 

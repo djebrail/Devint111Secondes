@@ -3,7 +3,6 @@ package IHM;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
-
 import Others.Outils;
 
 import devintAPI.FenetreAbstraite;
@@ -57,7 +56,9 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		
 		// bouton pour poser une question
     	question = new JButton();
-    	question.setText("Cliquez sur ce bouton pour commencer le jeu");
+    	Outils o = new Outils();
+    	String texte = o.laQuestionEst();
+    	question.setText(texte);
     	question.setBackground(new Color(50,50,255));
     	question.setBorder(new LineBorder(Color.BLACK,10));
      	question.setFont(new Font("Georgia",1,40));
@@ -79,7 +80,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		Object source = ae.getSource(); // on récupère la source de l'évènement
 
 		if (source.equals(question)) { // si c'est le bouton "question" on lit la question
-			String text = outils.laQuestionEst(outils.choisirListe());
+			String text = outils.laQuestionEst();
 			voix.playText(text); // le contenu des questions est variable donc on les lit avec SI_VOX
 		}
 
