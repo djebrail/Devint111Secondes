@@ -13,6 +13,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 
+
 /** Cette classe est un exemple d'interface de jeu.
  * Elle étend DevintFrame pour avoir un Frame et réagir aux évênements claviers
  * Implémente ActionListener pour réagir au clic souris sur le bouton.
@@ -29,7 +30,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	private JButton question;
 	private Outils outils;
 	private JTextArea lb1;
-
+	String mot="";
 	/*
 	 * Constructeur
 	 */
@@ -92,6 +93,9 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		if (source.equals(question)) { // si c'est le bouton "question" on lit la question
 			String text = outils.laQuestionEst();
 			voix.playText(text); // le contenu des questions est variable donc on les lit avec SI_VOX
+			
+			
+			
 		}
 
 		this.requestFocus(); // on redonne le focus au JFrame principal (après un clic, le focus est sur le bouton)
@@ -105,6 +109,11 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	public void keyPressed(KeyEvent e) {
 		super.keyPressed(e);	// appel à la méthode mère qui gère les évènements ESC, F1, F3, F4
 		switch(e.getKeyCode()){
+		case KeyEvent.VK_ENTER:
+			break;
+			
+		default:
+			mot=mot+e.getKeyChar();
 
 		}
 	}
