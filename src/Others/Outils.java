@@ -185,7 +185,7 @@ public class Outils {
 		int nb = nbLigneTexte(texte);
 		int alea = (int)Math.floor(Math.random()*nb);
 		String mot = getMotDeLaLigne(texte, alea);
-		char lettre = mot.charAt(0);
+		char lettre = mot.charAt(3);
 		return lettre;
 	}
 	
@@ -193,14 +193,14 @@ public class Outils {
 	//Les liste dans un tableau ?
 	public String choisirListe(){
 		listes = new String[8];
-		listes[0]= "..\\ressources\\ListeSports.txt";
-		listes[1]= "..\\ressources\\ListeFruits.txt";
-		listes[2]= "..\\ressources\\ListeMetiers.txt";
-		listes[3]= "..\\ressources\\ListeVilles De France.txt";
+		listes[0]= "..\\ressources\\ListeSport.txt";
+		listes[1]= "..\\ressources\\ListeFruit.txt";
+		listes[2]= "..\\ressources\\ListeMetier.txt";
+		listes[3]= "..\\ressources\\ListeVille De France.txt";
 		listes[4]= "..\\ressources\\ListePays.txt";
-		listes[5]= "..\\ressources\\ListeMammiferes.txt";
-		listes[6]= "..\\ressources\\ListePrenoms.txt";
-		listes[7]= "..\\ressources\\ListePlanetes.txt";
+		listes[5]= "..\\ressources\\ListeMammifere.txt";
+		listes[6]= "..\\ressources\\ListePrenom.txt";
+		listes[7]= "..\\ressources\\ListePlanete.txt";
 
 		int i = (int)Math.floor(Math.random()*8);
 		return listes[i];

@@ -80,7 +80,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	
     	textField = new JTextField(20);
         textField.addActionListener(this);
-        textField.setFont(new Font("Georgia",1,200));
+        textField.setFont(new Font("Georgia",1,180));
         this.add(lb1,BorderLayout.NORTH);
         this.add(textField,BorderLayout.SOUTH);
     	
