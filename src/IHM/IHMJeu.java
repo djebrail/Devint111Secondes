@@ -12,7 +12,7 @@ import devintAPI.Preferences;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-import javax.swing.JTextField;
+
 
 /** Cette classe est un exemple d'interface de jeu.
  * Elle étend DevintFrame pour avoir un Frame et réagir aux évênements claviers
@@ -30,6 +30,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	private JButton question;
 	private Outils outils;
 	private JTextArea lb1;
+	String mot="";
 	/*
 	 * Constructeur
 	 */
@@ -42,7 +43,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	 * Initialisation du frame.
 	 */
 	protected void init() {
-
+		
 		/*
 		String text = outils.laQuestionEst(outils.choisirListe());
 		voix.playText(text);
@@ -50,24 +51,22 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	lb1.setLineWrap(true);
     	lb1.setEditable(false);
     	lb1.setFont(new Font("Georgia",1,30));
-
+    	
     	// on place le premier composant en haut
     	this.add(lb1);
-		 */
-
+    	*/
+		
 		// bouton pour poser une questin
-
-		//question = new JButton();
-		Outils o = new Outils();
-		String question = o.laQuestionEst();
-		lb1 = new JTextArea (question);
-		lb1.setLineWrap(true);
-		lb1.setEditable(false);
-		lb1.setFont(new Font("Georgia",1,30));
-		this.add(lb1,BorderLayout.NORTH);
-		        
-
-		/*
+		
+    	//question = new JButton();
+    	Outils o = new Outils();
+    	String question = o.laQuestionEst();
+    	lb1 = new JTextArea (question);
+    	lb1.setLineWrap(true);
+    	lb1.setEditable(false);
+    	lb1.setFont(new Font("Georgia",1,30));
+    	this.add(lb1,BorderLayout.NORTH);
+    	/*
     	question.setText(texte);
     	question.setBackground(new Color(50,50,255));
     	question.setBorder(new LineBorder(Color.BLACK,10));
@@ -76,7 +75,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
        	question.addActionListener(this);
     	// on met le bouton à droite
      	this.add(question);
-		 */
+     	*/
 	}
 
 
@@ -86,7 +85,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 
 	//Action performed: Défini les actions à effectuer lors de détection des évènements
 	public void actionPerformed(ActionEvent ae){
-
+		
 		voix.stop();	// toujours stopper la voix avant de parler
 
 		Object source = ae.getSource(); // on récupère la source de l'évènement
@@ -94,12 +93,15 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		if (source.equals(question)) { // si c'est le bouton "question" on lit la question
 			String text = outils.laQuestionEst();
 			voix.playText(text); // le contenu des questions est variable donc on les lit avec SI_VOX
+			
+			
+			
 		}
 
 		this.requestFocus(); // on redonne le focus au JFrame principal (après un clic, le focus est sur le bouton)
-
+	
 	}
-
+	
 
 
 	//Keyboard event listener: détecte les éléments clavier.
@@ -107,6 +109,11 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	public void keyPressed(KeyEvent e) {
 		super.keyPressed(e);	// appel à la méthode mère qui gère les évènements ESC, F1, F3, F4
 		switch(e.getKeyCode()){
+		case KeyEvent.VK_ENTER:
+			break;
+			
+		default:
+			mot=mot+e.getKeyChar();
 
 		}
 	}
