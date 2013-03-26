@@ -193,21 +193,21 @@ public class Outils {
 	//Les liste dans un tableau ?
 	public String choisirListe(){
 		listes = new String[8];
-		listes[0]= "ListeSports.txt";
-		listes[1]= "ListeFruits.txt";
-		listes[2]= "ListeMetiers.txt";
-		listes[3]= "ListeVillesDeFrance.txt";
-		listes[4]= "ListePays.txt";
-		listes[5]= "ListeMammiferes.txt";
-		listes[6]= "ListePrenoms.txt";
-		listes[7]= "ListePlanetes.txt";
+		listes[0]= "..\\ressources\\ListeSports.txt";
+		listes[1]= "..\\ressources\\ListeFruits.txt";
+		listes[2]= "..\\ressources\\ListeMetiers.txt";
+		listes[3]= "..\\ressources\\ListeVillesDeFrance.txt";
+		listes[4]= "..\\ressources\\ListePays.txt";
+		listes[5]= "..\\ressources\\ListeMammiferes.txt";
+		listes[6]= "..\\ressources\\ListePrenoms.txt";
+		listes[7]= "..\\ressources\\ListePlanetes.txt";
 
 		int i = (int)Math.floor(Math.random()*8);
 		return listes[i];
 	}
 	
 	public String printListe(String texte){
-		return texte.substring(5,texte.indexOf('.')); 
+		return texte.substring(19,texte.length()-1); 
 	}
 	
 	public String laQuestionEst(){

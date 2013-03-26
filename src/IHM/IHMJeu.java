@@ -3,6 +3,7 @@ package IHM;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
+
 import Others.Outils;
 
 import devintAPI.FenetreAbstraite;
@@ -54,10 +55,17 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	this.add(lb1);
     	*/
 		
-		// bouton pour poser une question
+		// bouton pour poser une questin
+		
     	question = new JButton();
     	Outils o = new Outils();
-    	String texte = o.laQuestionEst();
+    	String question = o.laQuestionEst();
+    	lb1 = new JTextArea (question);
+    	lb1.setLineWrap(true);
+    	lb1.setEditable(false);
+    	lb1.setFont(new Font("Georgia",1,30));
+    	this.add(lb1,BorderLayout.NORTH);
+    	/*
     	question.setText(texte);
     	question.setBackground(new Color(50,50,255));
     	question.setBorder(new LineBorder(Color.BLACK,10));
@@ -66,6 +74,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
        	question.addActionListener(this);
     	// on met le bouton à droite
      	this.add(question);
+     	*/
 	}
 
 
@@ -75,6 +84,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 
 	//Action performed: Défini les actions à effectuer lors de détection des évènements
 	public void actionPerformed(ActionEvent ae){
+		
 		voix.stop();	// toujours stopper la voix avant de parler
 
 		Object source = ae.getSource(); // on récupère la source de l'évènement
@@ -85,7 +95,9 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		}
 
 		this.requestFocus(); // on redonne le focus au JFrame principal (après un clic, le focus est sur le bouton)
+	
 	}
+	
 
 
 	//Keyboard event listener: détecte les éléments clavier.
