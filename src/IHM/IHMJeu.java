@@ -58,7 +58,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		
 		// bouton pour poser une questin
 		
-    	question = new JButton();
+    	//question = new JButton();
     	Outils o = new Outils();
     	String question = o.laQuestionEst();
     	lb1 = new JTextArea (question);

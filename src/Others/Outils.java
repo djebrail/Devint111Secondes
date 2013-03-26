@@ -140,7 +140,7 @@ public class Outils {
 	
 	public int nbLigneTexte(String texte) {
 		String fichier = texte;
-		int count=0;
+		int count=-1;
 		// lecture du fichier texte
 		try {
 			InputStream ips = new FileInputStream(fichier);
