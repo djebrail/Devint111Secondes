@@ -196,7 +196,7 @@ public class Outils {
 		listes[0]= "..\\ressources\\ListeSports.txt";
 		listes[1]= "..\\ressources\\ListeFruits.txt";
 		listes[2]= "..\\ressources\\ListeMetiers.txt";
-		listes[3]= "..\\ressources\\ListeVillesDeFrance.txt";
+		listes[3]= "..\\ressources\\ListeVilles De France.txt";
 		listes[4]= "..\\ressources\\ListePays.txt";
 		listes[5]= "..\\ressources\\ListeMammiferes.txt";
 		listes[6]= "..\\ressources\\ListePrenoms.txt";
@@ -207,7 +207,7 @@ public class Outils {
 	}
 	
 	public String printListe(String texte){
-		return texte.substring(19,texte.length()-1); 
+		return texte.substring(19,texte.length()-4); 
 	}
 	
 	public String laQuestionEst(){

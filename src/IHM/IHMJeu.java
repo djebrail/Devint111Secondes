@@ -30,6 +30,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	private JButton question;
 	private Outils outils;
 	private JTextArea lb1;
+	protected JTextField textField;
 	String mot="";
 	/*
 	 * Constructeur
@@ -64,8 +65,8 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	lb1 = new JTextArea (question);
     	lb1.setLineWrap(true);
     	lb1.setEditable(false);
-    	lb1.setFont(new Font("Georgia",1,30));
-    	this.add(lb1,BorderLayout.NORTH);
+    	lb1.setFont(new Font("Georgia",1,180));
+    	
     	/*
     	question.setText(texte);
     	question.setBackground(new Color(50,50,255));
@@ -76,6 +77,13 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	// on met le bouton à droite
      	this.add(question);
      	*/
+    	
+    	textField = new JTextField(20);
+        textField.addActionListener(this);
+        textField.setFont(new Font("Georgia",1,200));
+        this.add(lb1,BorderLayout.NORTH);
+        this.add(textField,BorderLayout.SOUTH);
+    	
 	}
 
 
