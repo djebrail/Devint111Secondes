@@ -27,11 +27,12 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	 * 
 	 */
 	private static final long serialVersionUID = 3618784748797233087L;
-	private JButton question;
-	private Outils outils;
+	
 	private JTextArea lb1;
-	protected JTextField textField;
+	private JTextArea lb2;
+	//protected JTextField textField;
 	String mot="";
+	
 	/*
 	 * Constructeur
 	 */
@@ -44,28 +45,21 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	 * Initialisation du frame.
 	 */
 	protected void init() {
+    	//Genère une question :
 		
-		/*
-		String text = outils.laQuestionEst(outils.choisirListe());
-		voix.playText(text);
-		lb1 = new JTextArea (text); 
+    	lb1 = new JTextArea ("Appuyez sur Entree pour debuter");
     	lb1.setLineWrap(true);
     	lb1.setEditable(false);
-    	lb1.setFont(new Font("Georgia",1,30));
+    	lb1.setFont(new Font("Georgia",1,80));
+    	this.add(lb1,BorderLayout.NORTH);
     	
-    	// on place le premier composant en haut
-    	this.add(lb1);
-    	*/
-		
-		// bouton pour poser une questin
-		
-    	//question = new JButton();
-    	Outils o = new Outils();
-    	String question = o.laQuestionEst();
-    	lb1 = new JTextArea (question);
-    	lb1.setLineWrap(true);
-    	lb1.setEditable(false);
-    	lb1.setFont(new Font("Georgia",1,180));
+    	
+    	lb2 = new JTextArea ("");
+    	lb2.setLineWrap(true);
+    	lb2.setEditable(false);
+    	lb2.setFont(new Font("Georgia",1,80));
+        this.add(lb2,BorderLayout.SOUTH);
+       
     	
     	/*
     	question.setText(texte);
@@ -78,12 +72,13 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
      	this.add(question);
      	*/
     	
+    	//Affiche ce qui est entré au clavier
+    	/*
     	textField = new JTextField(20);
         textField.addActionListener(this);
         textField.setFont(new Font("Georgia",1,180));
-        this.add(lb1,BorderLayout.NORTH);
-        this.add(textField,BorderLayout.SOUTH);
-    	
+       this.add(textField,BorderLayout.SOUTH);
+       */
 	}
 
 
@@ -93,7 +88,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 
 	//Action performed: Défini les actions à effectuer lors de détection des évènements
 	public void actionPerformed(ActionEvent ae){
-		
+		/*
 		voix.stop();	// toujours stopper la voix avant de parler
 
 		Object source = ae.getSource(); // on récupère la source de l'évènement
@@ -107,7 +102,8 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 		}
 
 		this.requestFocus(); // on redonne le focus au JFrame principal (après un clic, le focus est sur le bouton)
-	
+	*/
+		
 	}
 	
 
@@ -116,12 +112,34 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 	@Override
 	public void keyPressed(KeyEvent e) {
 		super.keyPressed(e);	// appel à la méthode mère qui gère les évènements ESC, F1, F3, F4
-		switch(e.getKeyCode()){
+		Outils o = new Outils();
+		String question=o.laQuestionEst();
+		switch(e.getKeyCode()) {
+		
 		case KeyEvent.VK_ENTER:
+			 
+			lb1.setText(question);
+			voix.playText(question);
+			lb2.setText("too");
+
+			
+			break;
+			
+		case KeyEvent.VK_SPACE:
+			
+			//String s = question.substring(question.lastIndexOf(" "));
+			//char lettreGeneree = s.charAt(0);
+			//String nomFichier ="..\\ressources\\Liste" + question.substring(0,question.indexOf(" "))+".txt" ;
+			String message = o.leMotEstDansLaListe("saturne","..\\ressources\\ListePlanete.txt",'s');
+			lb2.setText("jojo");
+			
+			//mot="";
 			break;
 			
 		default:
 			mot=mot+e.getKeyChar();
+			//mot=textField.getText();
+			//break;
 
 		}
 	}

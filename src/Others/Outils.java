@@ -18,11 +18,11 @@ public class Outils {
 
 	}
 
-	public String leMotEstDansLaListe(String mot, String texte, char lettre) {
-		if (rechercheDuMotDansLaListe(mot, texte, lettre)) {
+	public String leMotEstDansLaListe(String mot, String fichiertxt, char lettre) {
+		if (rechercheDuMotDansLaListe(mot, fichiertxt, lettre)) {
 			return "Le mot est dans la liste +1 ! ";
 		} else {
-			return " Le mot n'est pas bon mais voici un exemple :"+ motPossible(texte, lettre);
+			return " Le mot n'est pas bon mais voici un exemple :"+ motPossible(fichiertxt, lettre);
 		}
 	}
 
@@ -51,7 +51,7 @@ public class Outils {
 		return false;
 	}
 
-	// Gere la possibilité que la personne est mal tapé
+	// Gere la possibilité que la personne ait mal tapé
 	public boolean motMalTape(String motTape, String motReference) {
 		/*
 		 * if(motTape.length()!= motReference.length()){ return false; }
