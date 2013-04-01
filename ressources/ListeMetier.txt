@@ -10,7 +10,7 @@ Mécanicien d'aéronefs
 Navigateur aérien
 Pilote d'avion
 Pilote de chasse
-Pilote d'hélicoptère 
+Pilote d'hélicoptère
 Barman
 Boucher
 Boulanger

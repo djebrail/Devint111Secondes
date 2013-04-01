@@ -1,199 +1,199 @@
 ﻿Paris 
-Marseille                   
-Lyon                                           
-Toulouse                                             
-Nice                                                 
-Nantes                                               
-Strasbourg                                       
-Montpellier                                         
-Bordeaux                                      
-Lille                                             
-Rennes                                             
-Reims                                                      
-Le Havre                                                
-St Etienne                                                     
-Toulon                                                          
-Grenoble                                                       
-Angers                                                         
-Dijon                                                          
-Brest                                                          
-Le Mans                                                        
-Nîmes                                                          
-Aix-en-Provence                                                
-Clermont-Ferrant                                               
-Tours                                                          
-St Denis (Reunion)                                             
-Limoges                                                        
-Villeurbanne                                                   
-Amiens                                                         
+Marseille
+Lyon
+Toulouse
+Nice
+Nantes
+Strasbourg
+Montpellier
+Bordeaux
+Lille
+Rennes
+Reims
+Le Havre
+St Etienne
+Toulon
+Grenoble
+Angers
+Dijon
+Brest
+Le Mans
+Nîmes
+Aix-en-Provence
+Clermont-Ferrant
+Tours
+St Denis
+Limoges
+Villeurbanne
+Amiens
 Besançon
-Metz                                                                          120 706
-Perpignan                                                                  117 500
-Orléans                                                                      116 256
-Caen                                                                          113 249
-Mulhouse                                                                    112 960
-Boulogne-Billancourt                                                111 280                                                 
-Rouen                                                                        110 276
-Nancy                                                                        107 189
-Argenteuil                                                                  104 189
-Montreuil                                                                    102 369
-St Paul(Reunion)                                                        100 818
-St Denis                                                                        98 937
-Roubaix                                                                        98 774
-Avignon                                                                        94 784
-Turcoing                                                                        93 540
-Fort-de-France(Martinique)                                          91 821
-Poitiers                                                                          91 345
-Nanterre                                                                        90 368
-Créteil                                                                            89 691
-Verseilles                                                                      89 490
-Pau                                                                                85 714
-Courbevoie                                                                                      85 158
-Vitry-sur-Seine                                                                                83 559
-Asnieres-sur-Seine                                                                          83 044
-Colombes                                                                                        82 698
-Aulnay-sous-Bois                                                                            82 130
-Rueil-Malmaison                                                                            78 964
-Antibes                                                                                            76 925
-La Rochelle                                                                                      76 594
-St-Maur-des-Fossés                                                                          76 053
-Calais                                                                                                75 790
-Champigny-sur-Marne                                                                    75 485
-St Pierre(Réunion)                                                                            75 381
-Aubervilliers                                                                                    74 038
-Béziers                                                                                              74 028
-Bourges                                                                                            72 919
-Cannnes                                                                                            71 526
-St Nazaire                                                                                          71 373
-Dunkerque                                                                                        71 071
-Quimper                                                                                            68 237
-Valence                                                                                              66 981
-Colmar                                                                                              66 886
-Drancy                                                                                                66 701
-Mérignac                                                                                            66 388
-Ajaccio                                                                                              64 679
-Levallois-Perret                                                                                  63 272
-Troyes                                                                                                63 044
-Les Abymes                                                                                        62 809
-Neuilly-sur-Seine                                                                                62 241
-Issy-Les-Moulineaux                                                                          62 175
-Villeneuve-d’Ascq                                                                              61 932
-Noisy-Le-Grand                                                                                  61 795
-Antony                                                                                                61 265
-Niort                                                                                                  60 486 
-Lorient                                                                                                60 286
-La Seyne sur mer                                                                                60 188
-Chambery                                                                                          59 188
-Cayenne(Guyane)                                                                              58 492
-St Quentin                                                                                          58 486
-Pessac                                                                                                  58 069
-Sarcelles                                                                                              57 877
-Cergy                                                                                                  57 576
-Clichy                                                                                                  57 475
-Beauvais                                                                                              56 919
-Cholet         56 761
-Hyères                                56 275
-Vénissieux                                                                                            56 061
-Ivry-sur-Seine                                                                                      56 034
-Montauban                                                                                          55 927
-Vannes                                                                                                55 513 
-Charleville-Mézières                                                                          54 036
-Pantin                                                                                                  53 949
-Laval                                                                                                  53 896
-Maisons-Alfort                                                                                  53 749
-Bondy                                                                                                53 663
-Evry                                                                                                    53 371
-Evreux                                                                                                53 254
-Arles                                                                                                  53 058
-Annecy                                                                                                52 890
-Fréjus                                                                                                  52 389
-Fontenay-sous-Bois                                                                            52 220
-Saint-André(Réunion)                                                                        52 147
-Sartouville                                                                                          52 090
-Narbonne                                                                                            51 996
-Epinay-sur-Seine                                                                                51 922
-Belfort                                                                                                51 891
-Brive-la-Gaillarde                                                                              51 455
-Sevran                                                                                                51 405
-Saint-Malo                                                                                          51 292
-Albi                                                                                                    51 199
-Clamart                                                                                                51 196
-Blois                                                                                                    50 704 
-Meaux                                                                                                  50 673
-Villejuif                                                                                              50 671
-Saint-Louis(Réunion)                                                                          49 958
-Grasse                                                                                                  49 770
-Chateauroux                                                                                        49 632
-La Roche-sur-Yon                                                                              49 262
-Chelles                                                                                                49 110
-Cagnes-sur-Mer                                                                                  48 911
-Le Tampon (La Réunion)                                                                    48 436
-Saint-Brieuc                                                                                        48 407
-Chalon-sur-Saône                                                                                48 376                     
-Carcassonne                                                                                        48 212
-Bobigny                                                                                              48 156
-Vincennes                                                                                            47 934
-Chalons-en-Champagne                                                                      47 720
-Martigues                                                                                            47 056
-Le Blanc-Mesnil                                                                                  46 936
-Tarbes                                                                                                  46 275
-Bayonne                                                                                              45 636
-Meudon                                                                                                45 516
-Montrouge                                                                                            45 481
-Angouleme                                                                                          45 131
-Aubagne                                                                                              45 088
-Boulogne-sur-Mer                                                                                45 036
-Castres                                                                                                  44 823
-Génnevilliers                                                                                        44 818
-Saint-Herblain                                                                                      44 775
-Suresnes                                                                                              44 491
-Bastia                                                                                                  44 273
-Douai                                                                                                  43 988
-Compiègne                                                                                          43 699           
-Sète                                                                                                      43 665
-Arras                                                                                                    43 663
-Valenciennes                                                                                        43 387
-Saint-Ouen                                                                                          43 302
-Puteaux                                                                                                43 277
-Wattrelos                                                                                            43 133
-Istres                                                                                                    43 034
-Saint-Germain-en-Laye                                                                      43 015
-Alfortville                                                                                            42 994                           
-Mantes-la-Jolie                                                                                    42 365
-Bourg-en-Bresse                                                                                  42 333
-Cherbourg                                                                                            42 087
-Talence                                                                                                42 293
-Le Cannet                                                                                            42 158
-Thionville                                                                                            42 040
-Caluire-et-Cuire                                                                                  42 020
-Livry-Garan                                                                                        41 722
-Corbeil-Essonnes                                                                                41 604
-Chartes                                                                                               41 588
-Rosny-sous-Bois                                                            
-Montluçon                                                                                          
-Saint-Priest                                                                                          
-Arès                                                                                                      
-Salon-de-Provence                                                                              
-Vaulx-en-Velin                                                                                    40 806
-Massy                                                                                                  40 612
-Nevers                                                                                                  40 131
-Garges-lès-Gonesse                                                                              40 058
-Auxerre                                                                                                39 971
-Marcq-en-Baroeuf                                                                                39 726
-Bron                                                                                                      39 488
-Bagneux                                                                                              39 213
-Gap                                                                                                      39 136
-Anglet                                                                                                  38 992     
-Noisy-le-Sec                                                                                        38 850
-Melun                                                                                                    38 691
-Rezé                                                                                                      38 569
-Draguignan                                                                                            38 258
-Le Port (La Réunion)                                                                            38 412
-Roanne                                                                                                  37 645
-Vitrolles                                                                                                37 625
-Savigny-sur-Orge                                                                                  37 623
-La Courneuve                                                                                        37 347
-Jouè-lès-Tours                                                                                      36 517
+Metz
+Perpignan
+Orléans
+Caen
+Mulhouse
+Boulogne-Billancourt
+Rouen
+Nancy
+Argenteuil
+Montreuil
+St Paul
+St Denis
+Roubaix
+Avignon
+Turcoing
+Fort-de-France
+Poitiers
+Nanterre
+Créteil
+Verseilles
+Pau
+Courbevoie
+Vitry-sur-Seine
+Asnieres-sur-Seine
+Colombes
+Aulnay-sous-Bois
+Rueil-Malmaison
+Antibes
+La Rochelle
+St-Maur-des-Fossés
+Calais
+Champigny-sur-Marne
+St Pierre
+Aubervilliers
+Béziers
+Bourges
+Cannnes
+St Nazaire
+Dunkerque
+Quimper
+Valence
+Colmar
+Drancy
+Mérignac
+Ajaccio
+Levallois-Perret
+Troyes
+Les Abymes
+Neuilly-sur-Seine
+Issy-Les-Moulineaux
+Villeneuve-d’Ascq
+Noisy-Le-Grand
+Antony
+Niort
+Lorient
+La Seyne sur mer
+Chambery
+Cayenne
+St Quentin
+Pessac
+Sarcelles
+Cergy
+Clichy
+Beauvais
+Cholet
+Hyères
+Vénissieux
+Ivry-sur-Seine
+Montauban
+Vannes
+Charleville-Mézières
+Pantin
+Laval
+Maisons-Alfort
+Bondy
+Evry
+Evreux
+Arles
+Annecy
+Fréjus
+Fontenay-sous-Bois
+Saint-André
+Sartouville
+Narbonne
+Epinay-sur-Seine
+Belfort
+Brive-la-Gaillarde
+Sevran
+Saint-Malo
+Albi
+Clamart
+Blois
+Meaux
+Villejuif
+Saint-Louis
+Grasse
+Chateauroux
+La Roche-sur-Yon
+Chelles
+Cagnes-sur-Mer
+Le Tampon
+Saint-Brieuc
+Chalon-sur-Saône
+Carcassonne
+Bobigny
+Vincennes
+Chalons-en-Champagne
+Martigues
+Le Blanc-Mesnil
+Tarbes
+Bayonne
+Meudon
+Montrouge
+Angouleme
+Aubagne
+Boulogne-sur-Mer
+Castres
+Génnevilliers
+Saint-Herblain
+Suresnes
+Bastia
+Douai
+Compiègne
+Sète
+Arras
+Valenciennes
+Saint-Ouen
+Puteaux
+Wattrelos
+Istres
+Saint-Germain-en-Laye
+Alfortville
+Mantes-la-Jolie
+Bourg-en-Bresse
+Cherbourg
+Talence
+Le Cannet
+Thionville
+Caluire-et-Cuire
+Livry-Garan
+Corbeil-Essonnes
+Chartes
+Rosny-sous-Bois
+Montluçon
+Saint-Priest
+Arès
+Salon-de-Provence
+Vaulx-en-Velin
+Massy
+Nevers
+Garges-lès-Gonesse
+Auxerre
+Marcq-en-Baroeuf
+Bron
+Bagneux
+Gap
+Anglet
+Noisy-le-Sec
+Melun
+Rezé
+Draguignan
+Le Port
+Roanne
+Vitrolles
+Savigny-sur-Orge
+La Courneuve
+Jouè-lès-Tours
 Choisy-le-Roi
-Saint-Chamond                                                                                      
+Saint-Chamond
 Poissy
