@@ -1,26 +1,26 @@
 Accrobranche
 Aerobic sportive
-AÃ©romodÃ©lisme
-AÃ©rostation
+Aéromodélisme
+Aérostation
 Agility
 Aikido
 Alpinisme
-ApnÃ©e
+Apnée
 Aqua gym
 Arts martiaux
-AthlÃ©tisme
+Athlétisme
 Aviation
 Aviron 
 Baby foot
 Badminton
-Ball trap
 Ballet sur glace
+Ball trap
 Baseball
 Basket ball
-Baton dÃ©fense
+Baton défense
 Beach soccer
 Beach volley
-BÃ©bÃ© nageur
+Bébé nageur
 Biathlon
 Billard
 BMX
@@ -29,27 +29,27 @@ Boogie Woogie
 Boomerang
 Boule lyonnaise
 Bowling
-Boxe amÃ©ricaine
+Boxe américaine
 Boxe anglaise
 Boxe chinoise
-Boxe franÃ§aise
-Boxe thaÃ¯landaise
+Boxe française
+Boxe thaïlandaise
 Bridge
 Canne de combat
-Canne dÃ©fense
+Canne défense
 CanoÃ« kayak
 Canyonisme
 Capoeira
 Carrom
 Cerf volant
 Chanbara
-Char Ã  voile
+Char à voile
 Cheerleading
 Cirque
 Claquettes
 Combat libre
-Combat mÃ©diÃ©val
-Course Ã  pied
+Combat médiéval
+Course à  pied
 Course d'orientation
 Cyclisme sur piste
 Cyclisme sur route
@@ -64,12 +64,12 @@ Danse indienne
 Danse jazz
 Danse modern jazz
 Danse orientale
-Danse sur glace
-Danses caraÃ¯bes
+Danses caraïbes
 Danses de salon
 Danses latines
 Danses standards
 Danses swing
+Danse sur glace
 Deltaplane
 Disc Golf
 Echecs
@@ -79,11 +79,11 @@ Escrime
 Eveil corporel
 Fitness
 Flag
-FlÃ©chettes
+Fléchettes
 Football
 Football US
-Force athlÃ©tique
-Futsal 
+Force athlétique
+Futsal
 Giraviation
 Golf
 Gouren
@@ -91,7 +91,7 @@ Grappling
 Gymnastique artistique
 Gymnastique douce
 Gymnastique rythmique
-HaltÃ©rophilie
+Haltérophilie
 Handball
 Handisport
 Hapkido
@@ -100,17 +100,17 @@ Hockey subaquatique
 Hockey sur gazon
 Hockey sur glace
 Horse ball
-IaÃ¯do
+Iaïdo
 Jeet kune do
 Jetski
 Jiu-Jitsu
 Jodo
 Jorkyball
 Joutes nautiques
-Ju-Jitsu
 Judo
+Ju-Jitsu
 Kali Escrima
-KaratÃ©
+Karaté
 Karting
 Kempo
 Kendo
@@ -126,15 +126,15 @@ Luge
 Luta livre
 Lutte
 Marche
-ModÃ©lisme
+Modélisme
 Moto cross
-Moto vitesse
 Motoneige
+Moto vitesse
 Mountainboard
 Musculation
 Naginata
 Natation
-Natation synchronisÃ©e
+Natation synchronisée
 Ninjitsu
 Nunchaku
 Padel
@@ -144,15 +144,15 @@ Parachutisme
 Paramoteur
 Parapente
 Patinage artistique
-PÃªche
-PÃªche sous-marine
+Pêche
+Pêche sous-marine
 Pelote basque
 Penchak Silat
 Pentathlon
-PÃ©tanque
+Pétanque
 Peteca
-Planche Ã  voile
-PlongÃ©e
+Planche à  voile
+Plongée
 Plongeon
 Qi gong
 Quad
@@ -163,10 +163,10 @@ Ragga
 Raid
 Raid nature
 Rallye
-RandonnÃ©e
-RandonnÃ©e Ã©questre
-RandonnÃ©e pÃ©destre
-Raquette Ã  neige
+Randonnée
+Randonnée équestre
+Randonnée pédestre
+Raquette à  neige
 Rink hockey
 Rock
 Rock acrobatique
@@ -179,34 +179,34 @@ Sambo
 Sarbacana
 Sarbacane
 Sauvetage
-Self dÃ©fense
+Self défense
 Self Pro Krav
 Short track
 Skateboard
 Ski alpin
 Ski de fond
-Ski de randonnÃ©e
+Ski de randonnée
 Ski de vitesse
 Ski nautique
 Ski sur herbe
 Snowboard
 Softball
-SpÃ©lÃ©ologie
+Spéléologie
 Squash
 Sumo
 Surf
 Taekwondo
-TaÃ¯ chi chuan
-TaÃ¯ jitsu
+Taï chi chuan
+Taï jitsu
 Tambourin
 Tango argentin
 Tennis
 Tennis de table
 Thaing Bando
-Tir Ã  l'arc
+Tir à  l'arc
 Tir sportif
 Tir subaquatique
-TraÃ®neaux
+Traîneaux
 Trampoline
 Triathlon
 Tumbling
@@ -216,7 +216,7 @@ ULM
 Ultimate Frisbee
 Viet vo dao
 Voile
-Vol Ã  voile
+Vol à voile
 Volley ball
 VTT
 Water polo

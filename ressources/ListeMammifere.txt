@@ -1,14 +1,13 @@
+aï
 acouchi
 addax
 agouti
-aï
 alactaga
 algazelle
 allocèbe
 almiqui
 alouate
 alpaga
-âne
 angwantibo
 anoa
 anomalure
@@ -22,8 +21,8 @@ babouin
 baiji
 baleine
 baleine à bec
-balénoptère
 balisaur
+balénoptère
 bandar
 bandicoot
 banteng
@@ -32,28 +31,27 @@ barbastelle
 baribal
 beira
 belette
-béluga
-bérardie
 bharal
 biche-cochon
 binturong
 bison
 blaireau
 bleebok
-bœuf musqué
-bœuf
+béluga
 bongo
 bonobo
 bonto
 bororo
 bouquetin
+bérardie
 bruan
 bubale
+bœuf
 buffle
-chien
+bœuf musqué
 cabassou
-cabéru
 cabiaï
+cabéru
 cachalot
 callicèbe
 callitriche
@@ -65,7 +63,6 @@ carcajou
 caribou
 castor
 castor de montagne
-céphalophe
 cercocèbe
 cercopithèque
 cerf
@@ -77,11 +74,11 @@ chaus
 chauve-souris
 cheval
 chevalin
-chèvre
 chevreuil
 chevrotain porte-musc
-chien de prairie
 chien
+chien
+chien de prairie
 chimpanzé
 chinchilla
 chinkara
@@ -90,12 +87,13 @@ choeropotame
 chousingha
 chozchoz
 chungungo
+chèvre
 civette
 coati
 cobaye
 cobe
-cochon d'Inde
 cochon
+cochon d'Inde
 colobe
 colocolo
 colugo
@@ -104,19 +102,24 @@ coruro
 couguar
 couscous
 coyote
+céphalophe
 crocidure
+écureuil
+écureuil antilope
+écureuil fouisseur
+écureuil volant
 cynhyène
 cynocéphale
 daguet
-daman
 daim
 damalisque
+daman
 dasyure
 dauphin
-dègue
-dègue du chili
 dendrolague
 desman
+dègue
+dègue du chili
 dhole
 diable de Tasmanie
 dibatag
@@ -127,17 +130,7 @@ drill
 dromadaire
 dugong
 duiker
-écureuil antilope
-écureuil fouisseur
-écureuil volant
-écureuil
-élan
-éland
-élaphode
-éléphant
-éléphant de mer
 entelle
-épaulard
 epomophore
 euplère
 eyra
@@ -156,14 +149,13 @@ gaufre ou gauphre
 gaur
 gayal
 gazelle
-gélada
 gemsbok
 genette
 gerbille
 gerboise
-gérénuk
 gibbon
 girafe
+gélada
 globicéphale
 glouton
 gnou
@@ -172,15 +164,15 @@ gorille
 goundi
 grison
 grizzly
+gérénuk
 grysbok
 guanaco
 guemal
 guenon
+guib
 guépard
 guéreza
-guib
 hamster
-hérisson
 hermine
 hippopotame
 hippotrague
@@ -188,11 +180,12 @@ hirola
 hocheur
 homme
 houlock
+hérisson
 huillin
 hurleur
 hutia
-hyène
 hylochère
+hyène
 hypotrague
 ibex
 impala
@@ -216,26 +209,31 @@ kouprey
 lagotriche
 lama
 lamantin
+élan
+éland
+élaphode
 lapin
 lar, autre nom du gibbon à mains blanches
 lemming
-lémur
-léopard des mers
-léopard
-lépilémur
-lérot
-lérotin
-lièvre
-lièvre sauteur
-lièvre-wallaby
 linsang
 lion
 lion de mer
+lièvre
+lièvre sauteur
+lièvre-wallaby
+lémur
 loir
+léopard
+léopard des mers
 loris
 loup
 loup-marsupial
 loutre
+éléphant
+éléphant de mer
+lépilémur
+lérot
+lérotin
 luwak
 lycaon
 lynx
@@ -244,15 +242,15 @@ macrorhine
 macroscélide
 magistrat
 magot
-maïpouri
 maki
 Mammouth
 mandrill
 mangabey
 mangouste
-mangouste rayée
 mangouste à queue blanche
+mangouste rayée
 mangue ou mangue
+maïpouri
 mara
 margay
 markhor
@@ -280,12 +278,13 @@ myrmidon
 narval
 nasique
 natalide
+âne
 ninguai
 noctilion
 nunbat
 nyala
-nyctère
 nycticèbe
+nyctère
 ocelot
 octodon
 okapi
@@ -295,8 +294,8 @@ ondatra
 opossum
 orang-outan
 oreillard
-oréotrague
 orignal
+oréotrague
 orque
 oryctérope
 oryx
@@ -316,10 +315,8 @@ pangolin
 panthère
 paresseux
 patas
+épaulard
 pécari
-pékan
-pétauriste
-pétrodrome
 petrogale
 phacochère
 phalanger
@@ -329,6 +326,7 @@ phyllorine
 pika
 pinché
 pipistrelle
+pékan
 poiane
 polatouche
 porc
@@ -340,6 +338,8 @@ potto
 poudou
 pronghorn
 protèle
+pétauriste
+pétrodrome
 ptéronote
 puku
 puma
@@ -348,36 +348,35 @@ quatre yeux
 quokka
 ragondin
 rasse
-rat des pharaons
-rat musqué
-rat taupe
 rat
 rat à crinière
-rat à trompe
+rat des pharaons
 ratel
 rat-kangourou
+rat musqué
 raton laveur
+rat taupe
+rat à trompe
 renard
 renard polaire
 renne
-rhésus
 rhinocéros
 rhinopithèque
 rhinopome
+rhésus
 rhynchocyon
 rorqual
 roussette
 sagouin
-saïmiri
 sajou
 saki
 sambar
+saïmiri
 sanglier
 sapajou
 sarigue
 sassa
 semnopithèque
-sérotine
 serow
 serval
 siamang
@@ -392,13 +391,14 @@ singe vert
 sitatunga
 solenodon
 sotalie
-souris à miel
-souris marsupiale
 souris
-sousouc
+souris marsupiale
+souris à miel
 souslik
+sousouc
 spermophile
 springbok
+sérotine
 steenbok
 sténo
 suisse
@@ -421,12 +421,12 @@ taupe dorée
 taupe marsupiale
 taureau
 tayra
-télagon
 tenrec
 thylacine
-tigre de Tasmanie
 tigre
+tigre de Tasmanie
 titi
+télagon
 topi
 toupaye
 trident
@@ -437,8 +437,8 @@ urial
 vache
 vampire
 vaquita
-veau marin
 veau
+veau marin
 vervet
 vespertilion
 vigogne

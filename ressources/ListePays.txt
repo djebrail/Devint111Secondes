@@ -14,7 +14,6 @@ Arabie saoudite
 Argentine
 Arménie
 Aruba
-Îles Ashmore-et-Cartier
 Australie
 Autriche
 Azerbaïdjan
@@ -45,11 +44,9 @@ Cap-Vert
 Chili
 Chine
 Chypre
-Ile de Clipperton
 Colombie
 Comores
 Congo
-Îles de la mer de Corail
 Corée du Nord
 Corée du Sud
 Costa Rica
@@ -68,7 +65,6 @@ Espagne
 Estonie
 États-Unis
 Éthiopie
-Macédoine
 Finlande
 France
 Gabon
@@ -84,8 +80,8 @@ Guam
 Guatemala
 Guernsey
 Guinée
-Guinée équatoriale
 Guinée-Bissao
+Guinée équatoriale
 Guyana
 Haïti
 Honduras
@@ -93,9 +89,12 @@ Hong Kong
 Hongrie
 Île Bouvet
 Île Christmas
+Ile de Clipperton
 Île Norfolk
+Îles Ashmore-et-Cartier
 Îles Cayman
 Îles Cook
+Îles de la mer de Corail
 Îles des Cocos
 Îles Falkland
 Îles Féroé
@@ -105,6 +104,7 @@ Hongrie
 Îles Marshall
 Îles Pitcairn
 Îles Salomon
+Îles Spratleys
 Îles Svalbard et Jan Mayen
 Îles Turks-et-Caicos
 Îles Vierges américaines
@@ -137,6 +137,7 @@ Liechtenstein
 Lituanie
 Luxembourg
 Macao
+Macédoine
 Madagascar
 Malaisie
 Malawi
@@ -215,7 +216,6 @@ Slovaquie
 Slovénie
 Somalie
 Soudan
-Îles Spratleys
 Sri Lanka
 Suède
 Suisse
