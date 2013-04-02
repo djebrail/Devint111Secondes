@@ -56,7 +56,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
     	
     	lb2 = new JTextArea ("");
     	lb2.setLineWrap(true);
-    	lb2.setEditable(false);
+    	lb2.setEditable(true);
     	lb2.setFont(new Font("Georgia",1,80));
         this.add(lb2,BorderLayout.SOUTH);
        
@@ -131,7 +131,7 @@ public class IHMJeu extends FenetreAbstraite implements ActionListener{
 			//char lettreGeneree = s.charAt(0);
 			//String nomFichier ="..\\ressources\\Liste" + question.substring(0,question.indexOf(" "))+".txt" ;
 			String message = o.leMotEstDansLaListe("saturne","..\\ressources\\ListePlanete.txt",'s');
-			lb2.setText("jojo");
+			lb2.setText("mot");
 			
 			//mot="";
 			break;
